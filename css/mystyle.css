@@ -3,3 +3,75 @@ h3{
     background-color: white;
     font-size: 50px;
 }
+
+
+
+
+
+.b_shadow{
+    box-shadow: 4px 6px 8px red;
+}
+
+.d_shadow1{
+   filter:drop-shadow(4px 6px 8px black);
+   width: 250px;
+}
+.d_shadow2{
+   filter:drop-shadow(7px 6px 7px gold);
+   width: 250px;
+}
+
+
+
+
+
+.tb_g{
+    background-color: yellow;
+}
+#t_size{
+    font-size: 80px;
+}
+
+#t_color{
+     color: green;
+}
+.t_shadow{
+    text-shadow: 5px 5px 7px red;
+}
+
+.f_family1{
+    font-family: sans-serif;
+}
+.f_family2{
+    font-family: fantasy;
+}
+.f_family3{
+    font-family: cursive;
+}
+
+
+
+
+img{
+    width: 300px;
+}
+.border_img1{
+    border: 4px solid purple;
+    border-radius: 20px ;
+    border-color: grey black grey black;
+}
+.border_img2{
+    border: 4px double blue;
+     border-radius: 20px 100px 20px 100px ;
+}
+.border_img3{
+    border: 4px dashed green;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+}
+.border_img4{
+    border: 4px outset yellowgreen;
+     border-radius: 20px 80px 120px 200px;
+}
